@@ -1,5 +1,6 @@
-const stripe = async (req, res) =>{
-    res.send('stripe route')
+const stripeController = async (req, res) =>{
+    console.log((req.body));
+        res.send('stripe route')
 }
 
-module.exports = stripe
+module.exports = stripeController
